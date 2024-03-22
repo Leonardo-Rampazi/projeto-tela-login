@@ -20,8 +20,15 @@ grandes telas acima de 1200px*/
        float: right;
        width: 70%; 
     }
+    div#formulario > h1 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    div#formulario > p {
+        font-size: 1em;
+    }
 }
-    @media screen and (min-width:992px) and (max-width: 2000px){
+    @media screen and (min-width:992px) {
         body{
             background-image:linear-gradient(to top,#213fa3, #222433);
         }
@@ -29,12 +36,19 @@ grandes telas acima de 1200px*/
             width:990px;
         }
         section#login > div#imagem{
-            float: left;
+            float: right;
             width: 50%;
             height: 100%;
         }
         section#login > div#formulario{
-            float: right;
+            float: left;
             width: 50%;
-        }
     }
+    div#formulario > h1 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+        div#formulario > p {
+            font-size: 1.2em;
+        }
+}
